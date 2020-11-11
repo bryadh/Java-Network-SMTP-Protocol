@@ -2,8 +2,7 @@
 
 ## Before running the application
 you must download a local SMTP server at https://local-smtp-server-pro.soft32.com/free-download/?dm=2
-You can also use online SMTP servers
-
+Or use an online SMTP server
 ## Usage
 Start the local server
 run the application
