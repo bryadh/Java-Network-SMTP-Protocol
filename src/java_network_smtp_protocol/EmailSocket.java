@@ -74,7 +74,7 @@ public class EmailSocket {
 				/* ***** STEP4 ***** */
 				/* Client notifies the receiver of the recipient email address of the message */
 				/* With a RCPT TO command */
-				out.println("RCPT TO: theryadh27@gmail.com");
+				out.println("RCPT TO: myaddress@gmail.com");
 				while((responseLine = in.readLine()) != null) {
 					System.out.println("Server: "+ responseLine);
 					if(responseLine.indexOf("250") != -1) {
@@ -96,7 +96,7 @@ public class EmailSocket {
 				/* ***** STEP6 ***** */
 				/* Send email body */
 				out.println("From: mytest@test.com");
-				out.println("To: theryadh27@gmail.com");
+				out.println("To: myaddress@gmail.com");
 				out.println("Subject: TEST EMAIL");
 				out.println("");
 				out.println("Subject: TEST EMAIL");
